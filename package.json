@@ -1,0 +1,24 @@
+{
+  "name": "hartes",
+  "version": "1.0.0",
+  "description": "Hartes app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build --linux deb"
+  },
+  "keywords": [
+    "Electron",
+    "npm",
+    "electron",
+    "app",
+    "Maps"
+  ],
+  "author": "Harha",
+  "license": "GPL",
+  "devDependencies": {
+    "electron": "^7.0.0-beta.3",
+    "electron-builder": "^20.44.4",
+    "electron-installer-debian": "^2.0.0"
+  }
+}

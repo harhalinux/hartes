@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#map {
+				
+				width: 900px;
+				height: 900px;				
+				
+			}
+		</style>		
+		<title>Hartes</title>
+		<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+	</head>
+	<body>
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoieGFyaXM0OCIsImEiOiJjang5emtvMHcwMDB3M3VuejVvYmdwbG91In0.MMFGT1aShj4BrbS_fAkdaw';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/xaris48/cjxh73uts1r7a1coemckkh2lp'
+});
+</script>
+	</body>
+</html>
