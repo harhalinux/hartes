@@ -17,7 +17,7 @@
   "author": "Harha",
   "license": "GPL",
   "devDependencies": {
-    "electron": "^7.0.0-beta.3",
+    "electron": "^7.3.3",
     "electron-builder": "^20.44.4",
     "electron-installer-debian": "^2.0.0"
   }
